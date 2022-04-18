@@ -1,0 +1,35 @@
+{
+	"cookies": [
+		{
+			"sameSite": "Lax",
+			"name": "OCSESSID",
+			"value": "6f18548bba007194b8f90f0854",
+			"domain": "demo.opencart.com",
+			"path": "/",
+			"expires": -1,
+			"httpOnly": false,
+			"secure": false
+		},
+		{
+			"sameSite": "Lax",
+			"name": "language",
+			"value": "en-gb",
+			"domain": ".demo.opencart.com",
+			"path": "/",
+			"expires": 1652185966.961657,
+			"httpOnly": false,
+			"secure": false
+		},
+		{
+			"sameSite": "Lax",
+			"name": "currency",
+			"value": "USD",
+			"domain": ".demo.opencart.com",
+			"path": "/",
+			"expires": 1652185966.961719,
+			"httpOnly": false,
+			"secure": false
+		}
+	],
+	"origins": []
+}
