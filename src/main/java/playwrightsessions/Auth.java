@@ -1,5 +1,6 @@
 package playwrightsessions;
 
+
 import java.nio.file.Paths;
 
 import com.microsoft.playwright.Browser;
@@ -15,15 +16,15 @@ public class Auth {
 		Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 		BrowserContext brContext = browser.newContext();
 
-		//text locators 
 		Page page = brContext.newPage();
 		page.navigate("http://automationpractice.com/");
-		page.fill("#email", "janthird2021batch@gmail.com");
-		page.fill("#passwd", "Selenium12345");
+		page.click("a:text('Sign in')");
+		page.fill("#email", "testrigornaveen@gmail.com");
+		page.fill("#passwd", "testrigor123");
 		page.click("#SubmitLogin");
 		
-		brContext.storageState(new BrowserContext.StorageStateOptions().setPath(Paths.get("autostate.json")));
-
+		brContext
+			.storageState(new BrowserContext.StorageStateOptions().setPath(Paths.get("applogin.json")));
 
 	}
 
