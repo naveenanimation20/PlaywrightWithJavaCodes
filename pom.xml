@@ -31,7 +31,13 @@
 			<artifactId>testng</artifactId>
 			<version>6.14.3</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>6.0.6</version>
+		</dependency>
 	</dependencies>
 
-	
+
 </project>
